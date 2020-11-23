@@ -1,4 +1,4 @@
-var Twitter = require('twitter');
+const Twitter = require('twitter');
 
 // connect to twitter via api
 
