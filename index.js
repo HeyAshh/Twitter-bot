@@ -1,5 +1,8 @@
 const Twitter = require('twitter');
 
+var client = new Twitter({
+});
+
 // connect to twitter via api
 
 // pull next tweet from SS
