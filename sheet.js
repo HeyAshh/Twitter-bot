@@ -12,4 +12,7 @@ module.exports = class Sheet {
         const sheet = this.doc.sheetsByIndex[0]; // or use doc.sheetsById[id]
         await sheet.addRows(rows);
     }
+    async getRows() {
+    
+    }
 }
