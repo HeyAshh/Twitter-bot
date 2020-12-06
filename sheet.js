@@ -13,6 +13,6 @@ module.exports = class Sheet {
         await sheet.addRows(rows);
     }
     async getRows() {
-    
+        const sheet = this.doc.sheetsByIndex[0];
     }
 }
