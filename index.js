@@ -10,6 +10,7 @@ var client = new Twitter({
 // connect to twitter via api
 
 // pull next tweet from SS
+const sheet = new Sheet();
 
 // send tweet
 client.post('statuses/update', {status: 'I Love Twitter'},  function(error, tweet, response) {
