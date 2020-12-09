@@ -11,6 +11,7 @@ var client = new Twitter({
 
 // pull next tweet from SS
 const sheet = new Sheet();
+await sheet.load().
 
 // send tweet
 client.post('statuses/update', {status: 'I Love Twitter'},  function(error, tweet, response) {
