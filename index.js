@@ -16,7 +16,7 @@ const quotes = away sheet.getRows();
 console.log(quotes[0].quote);
 
 // send tweet
-client.post('statuses/update', {status: 'I Love Twitter'},  function(error, tweet, response) {
+client.post('statuses/update', {status},  function(error, tweet, response) {
   if(error) throw error;
   console.log(tweet);  // Tweet body.
   console.log(response);  // Raw response object.
