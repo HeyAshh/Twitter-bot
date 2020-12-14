@@ -23,5 +23,6 @@ client.post('statuses/update', {status},  function(error, tweet, response) {
 });
 
 // remove quote from SS
+await quotes[0].delete();
 
 //. git testing 1 main
